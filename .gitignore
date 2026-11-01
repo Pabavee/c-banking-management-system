@@ -1,0 +1,25 @@
+# Build output
+bank
+bank.exe
+*.o
+*.obj
+build/
+cmake-build-*/
+
+# CMake artifacts
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile.cmake
+install_manifest.txt
+
+# Runtime data
+bank_data.txt
+bank_data.tmp
+
+# Editor and OS files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
